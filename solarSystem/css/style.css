@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif");
+}
+
+h1#title{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: red 2px 2px;
+    margin-left: 100px;
+}
+
+#c-kg {
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+    margin-left: 300px;
+}
+
+#planet{
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#btn-cal{
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    margin-left: 20px;
+}
+
+#group-display{
+    background-color: rgba(97, 96, 96, 0.3);
+    width: 800px;
+    height: 400px;
+    margin: 20px 0px 0px 220px;
+    border-radius: 8px;
+}
+
+#display-image{
+    margin: 60px 0px 0px 50px;
+}
