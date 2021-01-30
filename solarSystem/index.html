@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,17 +25,19 @@
             <option value="moon">Moon</option>
             <option value="sun">Sun</option>
         </select>
-        <button id="btn-cal">Calculate weight</button>
+        <button id="btn-cal" onclick="myfunction()">Calculate weight</button>
     </div>
         
     <div id="group-display">
-        <div >
-            <img id="display-image" width="250px" src="./images/earth.png" alt="earth image">
+        <div class="image">
+            <img class="display-image" width="250px" src="./images/select-planet.png" >
         </div>
-        <div>
-            
+
+        <div class="info">
+                Mass is required
         </div>
     </div>   
     
+    <script src="./js/main.js"></script>
 </body>
 </html>
